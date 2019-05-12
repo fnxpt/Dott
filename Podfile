@@ -8,5 +8,5 @@ target 'App' do
   pod 'Pilgrim', '~> 2.2.0'
   pod 'ReachabilitySwift', '~> 4.3.1'
   pod 'SwiftLint', '~> 0.32.0'
-  pod 'SwiftFormat', '~> 0.40.8'
+  pod 'SwiftFormat/CLI', '~> 0.40.8'
 end

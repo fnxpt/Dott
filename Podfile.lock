@@ -1,15 +1,13 @@
 PODS:
   - Pilgrim (2.2.0)
   - ReachabilitySwift (4.3.1)
-  - SwiftFormat (0.40.8):
-    - SwiftFormat/Core (= 0.40.8)
-  - SwiftFormat/Core (0.40.8)
+  - SwiftFormat/CLI (0.40.8)
   - SwiftLint (0.32.0)
 
 DEPENDENCIES:
   - Pilgrim (~> 2.2.0)
   - ReachabilitySwift (~> 4.3.1)
-  - SwiftFormat (~> 0.40.8)
+  - SwiftFormat/CLI (~> 0.40.8)
   - SwiftLint (~> 0.32.0)
 
 SPEC REPOS:
@@ -25,6 +23,6 @@ SPEC CHECKSUMS:
   SwiftFormat: d9e5ca1aed735164fe9d26510ec508ddb8a93598
   SwiftLint: 009a898ef2a1c851f45e1b59349bf6ff2ddc990d
 
-PODFILE CHECKSUM: 64604b894c8a0f33007d3c8bb3bf18a67e12a75f
+PODFILE CHECKSUM: 7238ec0812150d9dcc6213aea9802f63bf112b3d
 
 COCOAPODS: 1.5.3

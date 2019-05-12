@@ -6,22 +6,39 @@ targets:
     type: application
     platform: iOS
     deploymentTarget: "12.0"
-    sources: [Source]
+    sources: [AppSource]
     scheme:
       testTargets:
         - AppTest
     preBuildScripts:
-          - script: ${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat  --config .swiftformat Source
+          - script: ${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat  --config .swiftformat AppSource
             name: format
           - script: ${PODS_ROOT}/SwiftLint/swiftlint --config .swiftlint.yml
             name: lint
     dependencies:
       - sdk: MapKit.framework
+      - target: FoursquareAPI
   AppTest:
     type: bundle.unit-test
     platform: iOS
-    sources: Tests
+    sources: AppTests
     dependencies:
       - target: App
+      - sdk: Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest
+        root: DEVELOPER_DIR
+  FoursquareAPI:
+    type: framework
+    platform: iOS
+    sources: [FoursquareAPISource]
+    deploymentTarget: "12.0"
+    preBuildScripts:
+          - script: ${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat  --config .swiftformat FoursquareAPISource
+            name: format
+  FoursquareAPITest:
+    type: bundle.unit-test
+    platform: iOS
+    sources: FoursquareAPITests
+    dependencies:
+      - target: FoursquareAPI
       - sdk: Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest
         root: DEVELOPER_DIR

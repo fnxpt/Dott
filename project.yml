@@ -7,3 +7,21 @@ targets:
     platform: iOS
     deploymentTarget: "12.0"
     sources: [Source]
+    scheme:
+      testTargets:
+        - AppTest
+    preBuildScripts:
+          - script: ${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat  --config .swiftformat Source
+            name: format
+          - script: ${PODS_ROOT}/SwiftLint/swiftlint --config .swiftlint.yml
+            name: lint
+    dependencies:
+      - sdk: MapKit.framework
+  AppTest:
+    type: bundle.unit-test
+    platform: iOS
+    sources: Tests
+    dependencies:
+      - target: App
+      - sdk: Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest
+        root: DEVELOPER_DIR

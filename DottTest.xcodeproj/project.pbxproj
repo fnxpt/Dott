@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BA57B6B2F9C981468F8A584A03DB078 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B469FDBAC74C8F9058AC7132397ACF /* API.swift */; };
+		1880E87BA4DDD7F8DCF956D9A66CD739 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA313CD0507FE9836535D6DFC7213719 /* UIView+.swift */; };
+		18C8ECF826EC110CC053660FC793C3CC /* ErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C304DC559B0F782522D561177DE4E6EB /* ErrorView.xib */; };
+		2286AE3CECDD619B7E0116F5004FF473 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2999E43390D087D2FB502C6F8F6184 /* App.swift */; };
+		2C26ADF83C883DFA30B99F32637E47CC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B26E6F080DBC4C98FC99A4A533BFA9 /* MapKit.framework */; };
+		406E35AD2C6BDCB5734AA88BB7BA01B4 /* ResponseJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA5BE4EC3DA2D212902E8F014FD35DD /* ResponseJSON.swift */; };
+		409CCF397FC0EC4B6EE50D40E7FA885C /* FoursquareAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD03C20F74109C5B1774B4F511A2364 /* FoursquareAPI.framework */; };
+		5473AD744B049631B3B0C08A /* Pods_FoursquareAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EFA4AF0D0C705677ACBD37 /* Pods_FoursquareAPI.framework */; };
+		59C38BF75ADA1D2274C298257765D56F /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63677F0D9CA70BE367CB210EF73444B /* Updatable.swift */; };
+		62913F66B110AA1D67D5013A5EE221E0 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A960F7DD699D327B6F7F514BCDA64BC8 /* Operation.swift */; };
+		62B44AA8A8C1066006B2B097 /* Pods_App_AppTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6717044F82D42113A495C6 /* Pods_App_AppTest.framework */; };
+		63C01DE03B8B75D8907D5C24C4B5DE70 /* VenueDetailRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104633B48460629A0DEAC6A1B6E8F2D1 /* VenueDetailRequest.swift */; };
+		64002EA8D6A0F95D5E8001AC9A7910E3 /* XCTest in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC027C082A987BAAD689CFEBC2ED3A4 /* XCTest */; };
+		67970902E18CD9FB1D3BE586DDDE54CC /* Themeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5FEC15BDD40D59909050576B91B57 /* Themeable.swift */; };
+		68D3444678286842F3AA1E5ABA2B537B /* VenuesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F544B3448B35ADCF1CD45B429CAD66 /* VenuesRequest.swift */; };
+		6CD817DF3DFF0235A7BEFDB302C84A18 /* Decodable+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E19597481049094EB849C417DEF4B8E /* Decodable+JSON.swift */; };
+		7E8F824079DAFBDAAB4F411955D23C51 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F9B2634B41006566577CEB7F095BD17 /* DetailView.xib */; };
+		80F6AFF8460667D7E19AF73F9D3D885A /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0300422265928DD306B0C02C6595E8 /* Meta.swift */; };
+		83FC9A4E95CE7CFAEF7C57B80DB2E561 /* VenuePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDB55E5B5373EBE1BF65ABC0D9266BC /* VenuePhotos.swift */; };
+		855C6369219A63CF6C401CC1A0880B9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444A7B3F7A4B292B1C629C8EBE449B56 /* LaunchScreen.storyboard */; };
+		8E150B673EC6DAD48330C3DC4C9D2479 /* Venue+MKAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC6EBB7A3767AAAC4173B9203D52EAB /* Venue+MKAnnotation.swift */; };
+		8F64FB0977DC9D19212EE0AC96EE8ABB /* FoursquareRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3B8EC3244C880938BCA23171EA9557 /* FoursquareRequest.swift */; };
+		90B85D8AF8724C5E330E57F5C5D93710 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080BD0A86FD44AB613A85EE1444F9F15 /* Venue.swift */; };
+		9FF708012406216F2BC269FD4B58E3B7 /* XCTest in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC027C082A987BAAD689CFEBC2ED3A4 /* XCTest */; };
+		B081E2318A4EEF1F3BE9C9927EADA889 /* FoursquareAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ACD03C20F74109C5B1774B4F511A2364 /* FoursquareAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA5333AFA06B0AC2F2BA0D112E99106D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904016D69B81A859BD508EA07D59247E /* Assets.xcassets */; };
+		BFF733E4158462B7EE6E016C /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42534832DD2801EED81F7187 /* Pods_App.framework */; };
+		C0DF41D1420DE4F3EA3FA6C1BBAEEBCB /* VenueContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F54AA498475DB750FC6C79A49376FC /* VenueContact.swift */; };
+		C631CB3395A0259AFEB48BCB82772DBD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3306B8D73EBC7232567DB19DA91EC3E9 /* DetailView.swift */; };
+		C9471CD0C8D5A28F3DCB1084D515652C /* VenueLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612336CCC3100FF750E8A8C114610B06 /* VenueLocation.swift */; };
+		CA00B23664E6E9370261A392D51A85A8 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF7408C1373D3AF1E24E6ACF3A2B3F /* Requestable.swift */; };
+		CF87726A09B324ED9E6C3DBC66E27DD3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1C78182965AD9F2076D4B79E7FA5B /* MapViewController.swift */; };
+		DA34667BBF2650F630BC57CE8E2C1EDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027109B0CA111A230953C8A375F3EB9A /* AppDelegate.swift */; };
+		DEADD039B017160D21F5397380B87B8C /* MKCoordinateRegion+Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657CA112F79869B19E79883C6BE289A9 /* MKCoordinateRegion+Distance.swift */; };
+		DF392F8B720E171D378A8202A49DF2C5 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E24FF64359B18E52D03B9BFD876C77 /* ErrorView.swift */; };
+		E7F5D1B599E970DC528D451C8C41EC55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 328F5978BB358768873475179F3E679A /* Main.storyboard */; };
+		E81E004EC0E0BD0F01AB674137FE53AE /* FoursquareAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD03C20F74109C5B1774B4F511A2364 /* FoursquareAPI.framework */; };
+		FC3BF0D6CB3BAD1F81F4704BABC0519C /* MapViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7851AC3048B8EEEE075510A2292FD6CD /* MapViewDataSource.swift */; };
+		FF8ABA51F53EBDB98588B77F9165C3DE /* FoursquareAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ACD03C20F74109C5B1774B4F511A2364 /* FoursquareAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1747F62B488ADD5DC459607D68AA4CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C0C1BDB8C3105836A9A993B24CEB4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A72B3907F7E2DAA037F16C277CFE03E7;
+			remoteInfo = FoursquareAPI;
+		};
+		460084526794E2A62D39FCA7784D5BBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C0C1BDB8C3105836A9A993B24CEB4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 313B5AB2BAC0106F6CAB3D4C9CA93311;
+			remoteInfo = App;
+		};
+		D932EBC6AF67463BF6B8E1B1399E8252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C0C1BDB8C3105836A9A993B24CEB4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A72B3907F7E2DAA037F16C277CFE03E7;
+			remoteInfo = FoursquareAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5713963C222878FCF86D07AAB9A621A0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B081E2318A4EEF1F3BE9C9927EADA889 /* FoursquareAPI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51C5FFC79142FE51BE3A696C2D0AA31 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FF8ABA51F53EBDB98588B77F9165C3DE /* FoursquareAPI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		027109B0CA111A230953C8A375F3EB9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05EFA4AF0D0C705677ACBD37 /* Pods_FoursquareAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoursquareAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C4FD99DA136EF70FF818F55907F878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080BD0A86FD44AB613A85EE1444F9F15 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		104633B48460629A0DEAC6A1B6E8F2D1 /* VenueDetailRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailRequest.swift; sourceTree = "<group>"; };
+		13DD4ABCD7CCDB2488B9CE08 /* Pods-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-App/Pods-App.debug.xcconfig"; sourceTree = "<group>"; };
+		1C3B8EC3244C880938BCA23171EA9557 /* FoursquareRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoursquareRequest.swift; sourceTree = "<group>"; };
+		1DBA11CDFE8E4D5D20ACBAF8A1E1C8B8 /* App.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3003E24B69E7510EBC7C51DB4F238B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3306B8D73EBC7232567DB19DA91EC3E9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		3E19597481049094EB849C417DEF4B8E /* Decodable+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decodable+JSON.swift"; sourceTree = "<group>"; };
+		42534832DD2801EED81F7187 /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADFEC029D47B917EF2A5965 /* Pods-FoursquareAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoursquareAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoursquareAPI/Pods-FoursquareAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		4EE491D2C544E4FE875AA8B0 /* Pods-App-AppTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-AppTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-App-AppTest/Pods-App-AppTest.debug.xcconfig"; sourceTree = "<group>"; };
+		52E1C78182965AD9F2076D4B79E7FA5B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		612336CCC3100FF750E8A8C114610B06 /* VenueLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueLocation.swift; sourceTree = "<group>"; };
+		62E24FF64359B18E52D03B9BFD876C77 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		657CA112F79869B19E79883C6BE289A9 /* MKCoordinateRegion+Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKCoordinateRegion+Distance.swift"; sourceTree = "<group>"; };
+		6BE747D3318AFAEE21E6A79AF5CDC2F0 /* FoursquareAPITest.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FoursquareAPITest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0300422265928DD306B0C02C6595E8 /* Meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		6F9B2634B41006566577CEB7F095BD17 /* DetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		77B469FDBAC74C8F9058AC7132397ACF /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		7851AC3048B8EEEE075510A2292FD6CD /* MapViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewDataSource.swift; sourceTree = "<group>"; };
+		89C5FEC15BDD40D59909050576B91B57 /* Themeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Themeable.swift; sourceTree = "<group>"; };
+		8C6E1F6EBBC981251868E3C8764E3407 /* AppTest.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = AppTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		904016D69B81A859BD508EA07D59247E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C2999E43390D087D2FB502C6F8F6184 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		9CA5BE4EC3DA2D212902E8F014FD35DD /* ResponseJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseJSON.swift; sourceTree = "<group>"; };
+		9DC6EBB7A3767AAAC4173B9203D52EAB /* Venue+MKAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Venue+MKAnnotation.swift"; sourceTree = "<group>"; };
+		A7BB088FCE3923B1D517C9CD /* Pods-App-AppTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-AppTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-App-AppTest/Pods-App-AppTest.release.xcconfig"; sourceTree = "<group>"; };
+		A9574CEE13E1C3CB118B3797A408F330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A960F7DD699D327B6F7F514BCDA64BC8 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		A9F54AA498475DB750FC6C79A49376FC /* VenueContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueContact.swift; sourceTree = "<group>"; };
+		ABDB55E5B5373EBE1BF65ABC0D9266BC /* VenuePhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuePhotos.swift; sourceTree = "<group>"; };
+		ACD03C20F74109C5B1774B4F511A2364 /* FoursquareAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FoursquareAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F544B3448B35ADCF1CD45B429CAD66 /* VenuesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuesRequest.swift; sourceTree = "<group>"; };
+		BC6717044F82D42113A495C6 /* Pods_App_AppTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_AppTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B26E6F080DBC4C98FC99A4A533BFA9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C304DC559B0F782522D561177DE4E6EB /* ErrorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorView.xib; sourceTree = "<group>"; };
+		C9EF7408C1373D3AF1E24E6ACF3A2B3F /* Requestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
+		CCC027C082A987BAAD689CFEBC2ED3A4 /* XCTest */ = {isa = PBXFileReference; lastKnownFileType = text; name = XCTest; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest; sourceTree = DEVELOPER_DIR; };
+		DEA7EA5B5B2D27625303D686 /* Pods-FoursquareAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoursquareAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoursquareAPI/Pods-FoursquareAPI.release.xcconfig"; sourceTree = "<group>"; };
+		E63677F0D9CA70BE367CB210EF73444B /* Updatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Updatable.swift; sourceTree = "<group>"; };
+		EA313CD0507FE9836535D6DFC7213719 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		F90EA0265D386EC88606A032 /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03901CE8CF07F96AC50D3516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5473AD744B049631B3B0C08A /* Pods_FoursquareAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A8A757BCA2F274B5924FC554207602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C26ADF83C883DFA30B99F32637E47CC /* MapKit.framework in Frameworks */,
+				E81E004EC0E0BD0F01AB674137FE53AE /* FoursquareAPI.framework in Frameworks */,
+				BFF733E4158462B7EE6E016C /* Pods_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F56565ACCC7CB29DDE8DEBE9C89982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409CCF397FC0EC4B6EE50D40E7FA885C /* FoursquareAPI.framework in Frameworks */,
+				64002EA8D6A0F95D5E8001AC9A7910E3 /* XCTest in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A116BD01C2534E4964255BF038D780C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF708012406216F2BC269FD4B58E3B7 /* XCTest in Frameworks */,
+				62B44AA8A8C1066006B2B097 /* Pods_App_AppTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B7D3B0B9E188AD8AFDAA760019AB8AF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3E19597481049094EB849C417DEF4B8E /* Decodable+JSON.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		14D3D8D9397BE5456E31647102938A8C /* AppSource */ = {
+			isa = PBXGroup;
+			children = (
+				9C2999E43390D087D2FB502C6F8F6184 /* App.swift */,
+				027109B0CA111A230953C8A375F3EB9A /* AppDelegate.swift */,
+				904016D69B81A859BD508EA07D59247E /* Assets.xcassets */,
+				06C4FD99DA136EF70FF818F55907F878 /* Info.plist */,
+				444A7B3F7A4B292B1C629C8EBE449B56 /* LaunchScreen.storyboard */,
+				328F5978BB358768873475179F3E679A /* Main.storyboard */,
+				52E1C78182965AD9F2076D4B79E7FA5B /* MapViewController.swift */,
+				7851AC3048B8EEEE075510A2292FD6CD /* MapViewDataSource.swift */,
+				E047B8AFE3EC340597222729FCF394F5 /* Extensions */,
+				B86CC7616035553566FD888EFA6E891A /* Protocols */,
+				D4F78970B503B62EF3D10280B5BEB8B5 /* Views */,
+			);
+			path = AppSource;
+			sourceTree = "<group>";
+		};
+		179DFEBD187BB35D627DA99485B5290C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F0300422265928DD306B0C02C6595E8 /* Meta.swift */,
+				A960F7DD699D327B6F7F514BCDA64BC8 /* Operation.swift */,
+				9CA5BE4EC3DA2D212902E8F014FD35DD /* ResponseJSON.swift */,
+				080BD0A86FD44AB613A85EE1444F9F15 /* Venue.swift */,
+				A9F54AA498475DB750FC6C79A49376FC /* VenueContact.swift */,
+				612336CCC3100FF750E8A8C114610B06 /* VenueLocation.swift */,
+				ABDB55E5B5373EBE1BF65ABC0D9266BC /* VenuePhotos.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23DB258D22313A7FD821C296 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13DD4ABCD7CCDB2488B9CE08 /* Pods-App.debug.xcconfig */,
+				F90EA0265D386EC88606A032 /* Pods-App.release.xcconfig */,
+				4EE491D2C544E4FE875AA8B0 /* Pods-App-AppTest.debug.xcconfig */,
+				A7BB088FCE3923B1D517C9CD /* Pods-App-AppTest.release.xcconfig */,
+				4ADFEC029D47B917EF2A5965 /* Pods-FoursquareAPI.debug.xcconfig */,
+				DEA7EA5B5B2D27625303D686 /* Pods-FoursquareAPI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		28FB60D7704AB06876273AC84494F36E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1C3B8EC3244C880938BCA23171EA9557 /* FoursquareRequest.swift */,
+				C9EF7408C1373D3AF1E24E6ACF3A2B3F /* Requestable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2D9943C39ED89F96E9F67236A6ABD85E /* FoursquareAPITests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FoursquareAPITests;
+			sourceTree = "<group>";
+		};
+		45C8868FBE803FED0E47C65EA6048AAA /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				104633B48460629A0DEAC6A1B6E8F2D1 /* VenueDetailRequest.swift */,
+				B2F544B3448B35ADCF1CD45B429CAD66 /* VenuesRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		635E0733A2DAC602B263E1AC9D64B2A9 = {
+			isa = PBXGroup;
+			children = (
+				14D3D8D9397BE5456E31647102938A8C /* AppSource */,
+				E412E5B63582C3D992384B5CAC8CB331 /* AppTests */,
+				752FC6174325C71E3AC4A9C68A2895EF /* FoursquareAPISource */,
+				2D9943C39ED89F96E9F67236A6ABD85E /* FoursquareAPITests */,
+				6A14805ADE8ECA4F31DC85630A3967F1 /* Frameworks */,
+				8CE5CAB80A77B45D517164BAF39C625B /* Products */,
+				23DB258D22313A7FD821C296 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6A14805ADE8ECA4F31DC85630A3967F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2B26E6F080DBC4C98FC99A4A533BFA9 /* MapKit.framework */,
+				CCC027C082A987BAAD689CFEBC2ED3A4 /* XCTest */,
+				42534832DD2801EED81F7187 /* Pods_App.framework */,
+				BC6717044F82D42113A495C6 /* Pods_App_AppTest.framework */,
+				05EFA4AF0D0C705677ACBD37 /* Pods_FoursquareAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		752FC6174325C71E3AC4A9C68A2895EF /* FoursquareAPISource */ = {
+			isa = PBXGroup;
+			children = (
+				77B469FDBAC74C8F9058AC7132397ACF /* API.swift */,
+				0B7D3B0B9E188AD8AFDAA760019AB8AF /* Extensions */,
+				179DFEBD187BB35D627DA99485B5290C /* Model */,
+				28FB60D7704AB06876273AC84494F36E /* Protocols */,
+				45C8868FBE803FED0E47C65EA6048AAA /* Requests */,
+			);
+			path = FoursquareAPISource;
+			sourceTree = "<group>";
+		};
+		8CE5CAB80A77B45D517164BAF39C625B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DBA11CDFE8E4D5D20ACBAF8A1E1C8B8 /* App.app */,
+				8C6E1F6EBBC981251868E3C8764E3407 /* AppTest.xctest */,
+				ACD03C20F74109C5B1774B4F511A2364 /* FoursquareAPI.framework */,
+				6BE747D3318AFAEE21E6A79AF5CDC2F0 /* FoursquareAPITest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B86CC7616035553566FD888EFA6E891A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				89C5FEC15BDD40D59909050576B91B57 /* Themeable.swift */,
+				E63677F0D9CA70BE367CB210EF73444B /* Updatable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D4F78970B503B62EF3D10280B5BEB8B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3306B8D73EBC7232567DB19DA91EC3E9 /* DetailView.swift */,
+				6F9B2634B41006566577CEB7F095BD17 /* DetailView.xib */,
+				62E24FF64359B18E52D03B9BFD876C77 /* ErrorView.swift */,
+				C304DC559B0F782522D561177DE4E6EB /* ErrorView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E047B8AFE3EC340597222729FCF394F5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				657CA112F79869B19E79883C6BE289A9 /* MKCoordinateRegion+Distance.swift */,
+				EA313CD0507FE9836535D6DFC7213719 /* UIView+.swift */,
+				9DC6EBB7A3767AAAC4173B9203D52EAB /* Venue+MKAnnotation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E412E5B63582C3D992384B5CAC8CB331 /* AppTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28D8F35532BBB599E79EC19F8B27A566 /* FoursquareAPITest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1FDE46C899C42416191B66DBD169EC /* Build configuration list for PBXNativeTarget "FoursquareAPITest" */;
+			buildPhases = (
+				1F681FB02434E8752D637EF0E26E0518 /* Sources */,
+				56F56565ACCC7CB29DDE8DEBE9C89982 /* Frameworks */,
+				5713963C222878FCF86D07AAB9A621A0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E0453F8B93166D5D50EF77DEEFCE7D /* PBXTargetDependency */,
+			);
+			name = FoursquareAPITest;
+			productName = FoursquareAPITest;
+			productReference = 6BE747D3318AFAEE21E6A79AF5CDC2F0 /* FoursquareAPITest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		313B5AB2BAC0106F6CAB3D4C9CA93311 /* App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B247DC4CDD623537798E1BA8CB3B59F6 /* Build configuration list for PBXNativeTarget "App" */;
+			buildPhases = (
+				CA482A1FD3B59992D592AB03 /* [CP] Check Pods Manifest.lock */,
+				A0FE96EE8A04F8AD6CB55D1C222A40A6 /* format */,
+				EE4826D4612142C4C973492A7C6ACC4E /* lint */,
+				15718F1307396F70A36F7060502C45F6 /* Sources */,
+				AC58CE2B9086B68ACEAF3585CD007268 /* Resources */,
+				28A8A757BCA2F274B5924FC554207602 /* Frameworks */,
+				C51C5FFC79142FE51BE3A696C2D0AA31 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1753EA9AA1CD65764DEA0D21B13D7C1B /* PBXTargetDependency */,
+			);
+			name = App;
+			productName = App;
+			productReference = 1DBA11CDFE8E4D5D20ACBAF8A1E1C8B8 /* App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51498785ABB67D8C99463529E7251D9F /* AppTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C290724D224F5E1911CC7CC7918C3B /* Build configuration list for PBXNativeTarget "AppTest" */;
+			buildPhases = (
+				B5B6BBFD10464D183CC30416 /* [CP] Check Pods Manifest.lock */,
+				B6491C1F05471AE24A7105E4F1CA996B /* Sources */,
+				8A116BD01C2534E4964255BF038D780C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C251E2A314CA79E9E230E5872A19451 /* PBXTargetDependency */,
+			);
+			name = AppTest;
+			productName = AppTest;
+			productReference = 8C6E1F6EBBC981251868E3C8764E3407 /* AppTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A72B3907F7E2DAA037F16C277CFE03E7 /* FoursquareAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED32E0C002F36B88EA6EB70B0886CBA7 /* Build configuration list for PBXNativeTarget "FoursquareAPI" */;
+			buildPhases = (
+				0B60752CDCC1C583DAE7D24A /* [CP] Check Pods Manifest.lock */,
+				9108C99A5CD9BB20832F9546F65BC2EA /* format */,
+				D77F6AA823A5998E6BAC9E82FB1B7FB1 /* Sources */,
+				03901CE8CF07F96AC50D3516 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoursquareAPI;
+			productName = FoursquareAPI;
+			productReference = ACD03C20F74109C5B1774B4F511A2364 /* FoursquareAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94C0C1BDB8C3105836A9A993B24CEB4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					51498785ABB67D8C99463529E7251D9F = {
+						TestTargetID = 313B5AB2BAC0106F6CAB3D4C9CA93311;
+					};
+				};
+			};
+			buildConfigurationList = CFEAB1DF5614E2409E5F1B5121BBDC7B /* Build configuration list for PBXProject "DottTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 635E0733A2DAC602B263E1AC9D64B2A9;
+			productRefGroup = 8CE5CAB80A77B45D517164BAF39C625B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				313B5AB2BAC0106F6CAB3D4C9CA93311 /* App */,
+				51498785ABB67D8C99463529E7251D9F /* AppTest */,
+				A72B3907F7E2DAA037F16C277CFE03E7 /* FoursquareAPI */,
+				28D8F35532BBB599E79EC19F8B27A566 /* FoursquareAPITest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC58CE2B9086B68ACEAF3585CD007268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5333AFA06B0AC2F2BA0D112E99106D /* Assets.xcassets in Resources */,
+				7E8F824079DAFBDAAB4F411955D23C51 /* DetailView.xib in Resources */,
+				18C8ECF826EC110CC053660FC793C3CC /* ErrorView.xib in Resources */,
+				855C6369219A63CF6C401CC1A0880B9E /* LaunchScreen.storyboard in Resources */,
+				E7F5D1B599E970DC528D451C8C41EC55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B60752CDCC1C583DAE7D24A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoursquareAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9108C99A5CD9BB20832F9546F65BC2EA /* format */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = format;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat  --config .swiftformat FoursquareAPISource";
+		};
+		A0FE96EE8A04F8AD6CB55D1C222A40A6 /* format */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = format;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat  --config .swiftformat AppSource";
+		};
+		B5B6BBFD10464D183CC30416 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-App-AppTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA482A1FD3B59992D592AB03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE4826D4612142C4C973492A7C6ACC4E /* lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = lint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint --config .swiftlint.yml";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15718F1307396F70A36F7060502C45F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2286AE3CECDD619B7E0116F5004FF473 /* App.swift in Sources */,
+				DA34667BBF2650F630BC57CE8E2C1EDD /* AppDelegate.swift in Sources */,
+				C631CB3395A0259AFEB48BCB82772DBD /* DetailView.swift in Sources */,
+				DF392F8B720E171D378A8202A49DF2C5 /* ErrorView.swift in Sources */,
+				DEADD039B017160D21F5397380B87B8C /* MKCoordinateRegion+Distance.swift in Sources */,
+				CF87726A09B324ED9E6C3DBC66E27DD3 /* MapViewController.swift in Sources */,
+				FC3BF0D6CB3BAD1F81F4704BABC0519C /* MapViewDataSource.swift in Sources */,
+				67970902E18CD9FB1D3BE586DDDE54CC /* Themeable.swift in Sources */,
+				1880E87BA4DDD7F8DCF956D9A66CD739 /* UIView+.swift in Sources */,
+				59C38BF75ADA1D2274C298257765D56F /* Updatable.swift in Sources */,
+				8E150B673EC6DAD48330C3DC4C9D2479 /* Venue+MKAnnotation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F681FB02434E8752D637EF0E26E0518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6491C1F05471AE24A7105E4F1CA996B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77F6AA823A5998E6BAC9E82FB1B7FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA57B6B2F9C981468F8A584A03DB078 /* API.swift in Sources */,
+				6CD817DF3DFF0235A7BEFDB302C84A18 /* Decodable+JSON.swift in Sources */,
+				8F64FB0977DC9D19212EE0AC96EE8ABB /* FoursquareRequest.swift in Sources */,
+				80F6AFF8460667D7E19AF73F9D3D885A /* Meta.swift in Sources */,
+				62913F66B110AA1D67D5013A5EE221E0 /* Operation.swift in Sources */,
+				CA00B23664E6E9370261A392D51A85A8 /* Requestable.swift in Sources */,
+				406E35AD2C6BDCB5734AA88BB7BA01B4 /* ResponseJSON.swift in Sources */,
+				90B85D8AF8724C5E330E57F5C5D93710 /* Venue.swift in Sources */,
+				C0DF41D1420DE4F3EA3FA6C1BBAEEBCB /* VenueContact.swift in Sources */,
+				63C01DE03B8B75D8907D5C24C4B5DE70 /* VenueDetailRequest.swift in Sources */,
+				C9471CD0C8D5A28F3DCB1084D515652C /* VenueLocation.swift in Sources */,
+				83FC9A4E95CE7CFAEF7C57B80DB2E561 /* VenuePhotos.swift in Sources */,
+				68D3444678286842F3AA1E5ABA2B537B /* VenuesRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1753EA9AA1CD65764DEA0D21B13D7C1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A72B3907F7E2DAA037F16C277CFE03E7 /* FoursquareAPI */;
+			targetProxy = D932EBC6AF67463BF6B8E1B1399E8252 /* PBXContainerItemProxy */;
+		};
+		4C251E2A314CA79E9E230E5872A19451 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 313B5AB2BAC0106F6CAB3D4C9CA93311 /* App */;
+			targetProxy = 460084526794E2A62D39FCA7784D5BBC /* PBXContainerItemProxy */;
+		};
+		84E0453F8B93166D5D50EF77DEEFCE7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A72B3907F7E2DAA037F16C277CFE03E7 /* FoursquareAPI */;
+			targetProxy = 1747F62B488ADD5DC459607D68AA4CDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		328F5978BB358768873475179F3E679A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3003E24B69E7510EBC7C51DB4F238B26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		444A7B3F7A4B292B1C629C8EBE449B56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9574CEE13E1C3CB118B3797A408F330 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		208D13C53AE54BF796E804938AD4F6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DD4ABCD7CCDB2488B9CE08 /* Pods-App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = AppSource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pt.fnx.App;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CF0173C633EE02E02E87E61444BE1D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pt.fnx.FoursquareAPITest;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		366FB6A3641CDBD822B1C66D8003569B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F90EA0265D386EC88606A032 /* Pods-App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = AppSource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pt.fnx.App;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A14DE94EB5980F916CBCE891A435CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pt.fnx.FoursquareAPITest;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4215AD5EBA6D3504626D0BB1ECA226AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7BB088FCE3923B1D517C9CD /* Pods-App-AppTest.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pt.fnx.AppTest;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App.app/App";
+				TEST_TARGET_NAME = App;
+			};
+			name = Release;
+		};
+		81FB2159EB26AAD83C1FE42A81C4687C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA7EA5B5B2D27625303D686 /* Pods-FoursquareAPI.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pt.fnx.FoursquareAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		C13D8EA40377EED786E6E980DD98BFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C269A298008E899E515BFBD699B72FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ADFEC029D47B917EF2A5965 /* Pods-FoursquareAPI.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pt.fnx.FoursquareAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		DE734991E50EDFEB72927FE6C89F93C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DFED074C18CBF5E75F5162B3017C3D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE491D2C544E4FE875AA8B0 /* Pods-App-AppTest.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pt.fnx.AppTest;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App.app/App";
+				TEST_TARGET_NAME = App;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF1FDE46C899C42416191B66DBD169EC /* Build configuration list for PBXNativeTarget "FoursquareAPITest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A14DE94EB5980F916CBCE891A435CD8 /* Debug */,
+				2CF0173C633EE02E02E87E61444BE1D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		B247DC4CDD623537798E1BA8CB3B59F6 /* Build configuration list for PBXNativeTarget "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208D13C53AE54BF796E804938AD4F6C1 /* Debug */,
+				366FB6A3641CDBD822B1C66D8003569B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		C0C290724D224F5E1911CC7CC7918C3B /* Build configuration list for PBXNativeTarget "AppTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFED074C18CBF5E75F5162B3017C3D51 /* Debug */,
+				4215AD5EBA6D3504626D0BB1ECA226AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		CFEAB1DF5614E2409E5F1B5121BBDC7B /* Build configuration list for PBXProject "DottTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE734991E50EDFEB72927FE6C89F93C7 /* Debug */,
+				C13D8EA40377EED786E6E980DD98BFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ED32E0C002F36B88EA6EB70B0886CBA7 /* Build configuration list for PBXNativeTarget "FoursquareAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C269A298008E899E515BFBD699B72FDF /* Debug */,
+				81FB2159EB26AAD83C1FE42A81C4687C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94C0C1BDB8C3105836A9A993B24CEB4A /* Project object */;
+}

@@ -13,3 +13,5 @@
 [sudo] gem install cocoapods
 pod install
 ```
+2. Open API.swift and configure [foursquare](https://developer.foursquare.com). Be sure to replace CLIENT_ID and CLIENT_SECRET with your real API credentials.
+3. Open Dott.xcworkspace

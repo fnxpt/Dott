@@ -1,1 +1,66 @@
-{}
+{
+    "id": "5a2cfaa8a35dce026fb46684",
+    "name": "Лепим и варим",
+    "contact": {
+        "phone": "+79101597279",
+        "formattedPhone": "+7 910 159-72-79",
+        "instagram": "lepimvarimtula",
+        "facebook": "155369921719144",
+        "facebookName": "Пельменная Лепим и варим Тула"
+    },
+    "location": {
+        "address": "ул.Советская 56а",
+        "lat": 54.19235778191917,
+        "lng": 37.614531364835,
+        "labeledLatLngs": [{
+            "label": "display",
+            "lat": 54.19235778191917,
+            "lng": 37.614531364835
+        }],
+        "distance": 29505,
+        "postalCode": "300041",
+        "cc": "RU",
+        "city": "Tula",
+        "state": "Tula Oblast",
+        "country": "Russia",
+        "formattedAddress": [
+            "ул.Советская 56а",
+            "300041, Tula",
+            "Russia"
+        ]
+    },
+    "categories": [{
+        "id": "52e928d0bcbc57f1066b7e9c",
+        "name": "Pelmeni House",
+        "pluralName": "Pelmeni Houses",
+        "shortName": "Pelmeni",
+        "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+            "suffix": ".png"
+        },
+        "primary": true
+    }],
+    "verified": false,
+    "stats": {
+        "tipCount": 27,
+        "usersCount": 134,
+        "checkinsCount": 166
+    },
+    "url": "http://lepimivarim.ru",
+    "allowMenuUrlEdit": true,
+    "beenHere": {
+        "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+        "count": 0,
+        "items": []
+    },
+    "hereNow": {
+        "count": 0,
+        "summary": "Nobody here",
+        "groups": []
+    },
+    "referralId": "v-1557817799",
+    "venueChains": [],
+    "hasPerk": false
+}

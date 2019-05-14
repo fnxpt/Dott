@@ -1,0 +1,148 @@
+{
+    "count": 22,
+    "groups": [{
+        "type": "checkin",
+        "name": "Friends' check-in photos",
+        "count": 0,
+        "items": []
+    }, {
+        "type": "venue",
+        "name": "Venue photos",
+        "count": 22,
+        "items": [{
+            "id": "5a3784b6c824ae1a753b88dc",
+            "createdAt": 1513587894,
+            "source": {
+                "name": "Foursquare for iOS",
+                "url": "https://foursquare.com/download/#/iphone"
+            },
+            "prefix": "https://fastly.4sqi.net/img/general/",
+            "suffix": "/466741635_4yn5AUmtUS5_XqEkkF-ceTLYneEv3Qn3tclhIgz3xjs.jpg",
+            "width": 1440,
+            "height": 1440,
+            "user": {
+                "id": "466741635",
+                "firstName": "Никита",
+                "lastName": "Кощеев",
+                "gender": "male",
+                "photo": {
+                    "prefix": "https://fastly.4sqi.net/img/user/",
+                    "suffix": "/blank_boy.png",
+                    "default": true
+                }
+            },
+            "visibility": "public"
+        }, {
+            "id": "5c9e2c959de23b002ca5aec0",
+            "createdAt": 1553869973,
+            "source": {
+                "name": "Swarm for Android",
+                "url": "https://www.swarmapp.com"
+            },
+            "prefix": "https://fastly.4sqi.net/img/general/",
+            "suffix": "/36359675_J2C0Cnz1V7a2nwFG9CKsxxBVfK6hGk1TaedK6VnTGjY.jpg",
+            "width": 1425,
+            "height": 1900,
+            "user": {
+                "id": "36359675",
+                "firstName": "Артём",
+                "lastName": "Жуков",
+                "gender": "male",
+                "photo": {
+                    "prefix": "https://fastly.4sqi.net/img/user/",
+                    "suffix": "/V45ZOZR1GJCISCLW.jpg"
+                }
+            },
+            "visibility": "public"
+        }, {
+            "id": "5c44a25389e490002c881d75",
+            "createdAt": 1548001875,
+            "source": {
+                "name": "Swarm for iOS",
+                "url": "https://www.swarmapp.com"
+            },
+            "prefix": "https://fastly.4sqi.net/img/general/",
+            "suffix": "/15821482_kPzvsrMMzvKXFj-OqG_q5R9oyCDp-LN4Lhd2t2cxyP0.jpg",
+            "width": 1440,
+            "height": 1920,
+            "user": {
+                "id": "15821482",
+                "firstName": "Иван",
+                "lastName": "Притчин",
+                "gender": "male",
+                "photo": {
+                    "prefix": "https://fastly.4sqi.net/img/user/",
+                    "suffix": "/1ZSLL2VXFERDS234.jpg"
+                }
+            },
+            "visibility": "public"
+        }, {
+            "id": "5c431a0cda5e56002cbe7526",
+            "createdAt": 1547901452,
+            "source": {
+                "name": "Swarm for iOS",
+                "url": "https://www.swarmapp.com"
+            },
+            "prefix": "https://fastly.4sqi.net/img/general/",
+            "suffix": "/26651287_AZaN2AWedNLwLHEcfCVQzxofhJCt-X-mA09cK_r49zI.jpg",
+            "width": 1440,
+            "height": 1920,
+            "user": {
+                "id": "26651287",
+                "firstName": "Natalya",
+                "lastName": "Lipatova",
+                "gender": "female",
+                "photo": {
+                    "prefix": "https://fastly.4sqi.net/img/user/",
+                    "suffix": "/26651287_DapM9W1e_NGXIjegYyBkUjyzFW7yvrz-oHvmlCd43YIO7NVuiTqL8eu5J7OdM58CRo6NTxgk-.jpg"
+                }
+            },
+            "visibility": "public"
+        }, {
+            "id": "5c431a09418686002c2a7a74",
+            "createdAt": 1547901449,
+            "source": {
+                "name": "Swarm for iOS",
+                "url": "https://www.swarmapp.com"
+            },
+            "prefix": "https://fastly.4sqi.net/img/general/",
+            "suffix": "/26651287_J3aC7ca-71jGmyz3_WLFLi558BEcjZAKAH-SY3_wJ_0.jpg",
+            "width": 1920,
+            "height": 1440,
+            "user": {
+                "id": "26651287",
+                "firstName": "Natalya",
+                "lastName": "Lipatova",
+                "gender": "female",
+                "photo": {
+                    "prefix": "https://fastly.4sqi.net/img/user/",
+                    "suffix": "/26651287_DapM9W1e_NGXIjegYyBkUjyzFW7yvrz-oHvmlCd43YIO7NVuiTqL8eu5J7OdM58CRo6NTxgk-.jpg"
+                }
+            },
+            "visibility": "public"
+        }, {
+            "id": "5c03e9102632ec002c8467be",
+            "createdAt": 1543760144,
+            "source": {
+                "name": "Swarm for iOS",
+                "url": "https://www.swarmapp.com"
+            },
+            "prefix": "https://fastly.4sqi.net/img/general/",
+            "suffix": "/43047302_jI_Cn7R0jcnOuLwrJqNCWR-3Xt9KuubGP9DAYrm_-Hc.jpg",
+            "width": 1440,
+            "height": 1440,
+            "user": {
+                "id": "43047302",
+                "firstName": "Andrey",
+                "lastName": "Guschin",
+                "gender": "none",
+                "photo": {
+                    "prefix": "https://fastly.4sqi.net/img/user/",
+                    "suffix": "/0STZOVPZBL2EWVSA.jpg"
+                }
+            },
+            "visibility": "public"
+        }]
+    }],
+    "summary": "0 photos"
+}

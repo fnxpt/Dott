@@ -15,7 +15,10 @@ class VenueTests: XCTestCase {
 		let item = try? Venue.decode(data: data!)
 		XCTAssertNotNil(item)
 
-		XCTAssertEqual("", "")
+		XCTAssertEqual(item?.identifier, "5a2cfaa8a35dce026fb46684")
+		XCTAssertEqual(item?.name, "Лепим и варим")
+		XCTAssertNotNil(item?.location)
+
 	}
 
 	func testInvalidFile() {

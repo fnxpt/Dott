@@ -14,7 +14,13 @@ class VenuePhotosTests: XCTestCase {
 		let item = try? VenuePhotos.decode(data: data!)
 		XCTAssertNotNil(item)
 
-		XCTAssertEqual("", "")
+		XCTAssertEqual(item!.count, 22)
+		XCTAssertNotNil(item!.groups)
+
+		let urls = item?.photos(with: CGSize(width: 200, height: 200))
+		XCTAssertEqual(urls?.count, 6)
+
+		XCTAssertEqual(urls?.first?.absoluteString, "https://fastly.4sqi.net/img/general/200x200/466741635_4yn5AUmtUS5_XqEkkF-ceTLYneEv3Qn3tclhIgz3xjs.jpg")
 	}
 
 	func testInvalidFile() {

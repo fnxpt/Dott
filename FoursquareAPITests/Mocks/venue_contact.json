@@ -1,8 +1,7 @@
-//
-//  venue_contact.json
-//  FoursquareAPITest
-//
-//  Created by Marlon Pina Tojal on 13/05/2019.
-//
-
-import Foundation
+{
+    "phone": "+79101597279",
+    "formattedPhone": "+7 910 159-72-79",
+    "instagram": "lepimvarimtula",
+    "facebook": "155369921719144",
+    "facebookName": "Пельменная Лепим и варим Тула"
+}

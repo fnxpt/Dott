@@ -8,5 +8,5 @@ public struct VenueContact: Decodable {
 	public var phone: String?
 	public var twitter: String?
 	public var instagram: String?
-	public var facebookUsername: String?
+	public var facebook: String?
 }

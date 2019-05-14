@@ -11,10 +11,13 @@ class VenueContactTests: XCTestCase {
 		let data = load(file: "venue_contact", extension: "json")
 
 		XCTAssertNotNil(data)
-		let item = try? VenueLocation.decode(data: data!)
+		let item = try? VenueContact.decode(data: data!)
 		XCTAssertNotNil(item)
 
-		XCTAssertEqual("", "")
+		XCTAssertEqual(item!.phone, "+79101597279")
+		XCTAssertNil(item!.twitter)
+		XCTAssertEqual(item!.instagram, "lepimvarimtula")
+		XCTAssertEqual(item!.facebook, "155369921719144")
 	}
 
 	func testInvalidFile() {
@@ -28,7 +31,12 @@ class VenueContactTests: XCTestCase {
 
 		XCTAssertNotNil(data)
 
-		let item = try? VenueLocation.decode(data: data!)
-		XCTAssertNil(item)
+		let item = try? VenueContact.decode(data: data!)
+		XCTAssertNotNil(item)
+
+		XCTAssertNil(item!.phone)
+		XCTAssertNil(item!.twitter)
+		XCTAssertNil(item!.instagram)
+		XCTAssertNil(item!.facebook)
 	}
 }

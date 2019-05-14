@@ -29,6 +29,7 @@ protocol Requestable {
 	static var service: String { get }
 
 	static func request<Type: Decodable>(path service: String,
+	                                     keyPath: String?,
 	                                     parameters: [String: Any]?,
 	                                     completionHandler: @escaping (Response<Type>) -> Void)
 }

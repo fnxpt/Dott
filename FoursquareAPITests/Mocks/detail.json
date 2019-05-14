@@ -1,0 +1,621 @@
+{
+    "id": "4b7280b6f964a520957c2de3",
+    "name": "McDonald's",
+    "contact": {},
+    "location": {
+        "address": "Amersfoortseweg 24",
+        "lat": 52.11393336836345,
+        "lng": 5.259886482585093,
+        "labeledLatLngs": [
+            {
+                "label": "display",
+                "lat": 52.11393336836345,
+                "lng": 5.259886482585093
+            }
+        ],
+        "postalCode": "3712 BD",
+        "cc": "NL",
+        "city": "Huis ter Heide",
+        "state": "Utrecht",
+        "country": "Netherlands",
+        "formattedAddress": [
+            "Amersfoortseweg 24",
+            "3712 BD Huis ter Heide",
+            "Netherlands"
+        ]
+    },
+    "canonicalUrl": "https:\\/\\/foursquare.com\\/v\\/mcdonalds\\/4b7280b6f964a520957c2de3",
+    "categories": [
+        {
+            "id": "4bf58dd8d48988d16e941735",
+            "name": "Fast Food Restaurant",
+            "pluralName": "Fast Food Restaurants",
+            "shortName": "Fast Food",
+            "icon": {
+                "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/food\\/fastfood_",
+                "suffix": ".png"
+            },
+            "primary": true
+        }
+    ],
+    "verified": true,
+    "stats": {
+        "tipCount": 22,
+        "usersCount": 0,
+        "checkinsCount": 0,
+        "visitsCount": 0
+    },
+    "url": "http:\\/\\/www.mcdonaldsrestaurant.nl\\/huis-ter-heide\\/",
+    "price": {
+        "tier": 2,
+        "message": "Moderate",
+        "currency": "\\u20ac"
+    },
+    "likes": {
+        "count": 52,
+        "groups": [
+            {
+                "type": "others",
+                "count": 52,
+                "items": []
+            }
+        ],
+        "summary": "52 Likes"
+    },
+    "dislike": false,
+    "ok": false,
+    "rating": 5.6,
+    "ratingColor": "FF9600",
+    "ratingSignals": 101,
+    "allowMenuUrlEdit": true,
+    "beenHere": {
+        "count": 0,
+        "unconfirmedCount": 0,
+        "marked": false,
+        "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+        "count": 0,
+        "items": []
+    },
+    "photos": {
+        "count": 72,
+        "groups": [
+            {
+                "type": "checkin",
+                "name": "Friends' check-in photos",
+                "count": 0,
+                "items": []
+            },
+            {
+                "type": "venue",
+                "name": "Venue photos",
+                "count": 72,
+                "items": [
+                    {
+                        "id": "57f68200498eee91a5980026",
+                        "createdAt": 1475772928,
+                        "source": {
+                            "name": "Swarm for Windows Phone",
+                            "url": "https:\\/\\/swarmapp.com"
+                        },
+                        "prefix": "https:\\/\\/fastly.4sqi.net\\/img\\/general\\/",
+                        "suffix": "\\/128775072_g9-iWKn-SmksRRYDWbLvCSn851YE78cxqdGEnIWSTjM.jpg",
+                        "width": 3264,
+                        "height": 1840,
+                        "user": {
+                            "id": "128775072",
+                            "firstName": "Remco",
+                            "lastName": "Jonker",
+                            "gender": "male",
+                            "photo": {
+                                "prefix": "https:\\/\\/fastly.4sqi.net\\/img\\/user\\/",
+                                "suffix": "\\/128775072-QHSLOX3YWW4WBZV4.jpg"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "id": "5829e82848fb4015be1310df",
+                        "createdAt": 1479141416,
+                        "source": {
+                            "name": "Swarm for Windows Phone",
+                            "url": "https:\\/\\/swarmapp.com"
+                        },
+                        "prefix": "https:\\/\\/fastly.4sqi.net\\/img\\/general\\/",
+                        "suffix": "\\/128775072_g5hFLqxLfDqfjuCn8p2C8HOng6VTx9jnUYjD51pjFMw.jpg",
+                        "width": 3264,
+                        "height": 1840,
+                        "user": {
+                            "id": "128775072",
+                            "firstName": "Remco",
+                            "lastName": "Jonker",
+                            "gender": "male",
+                            "photo": {
+                                "prefix": "https:\\/\\/fastly.4sqi.net\\/img\\/user\\/",
+                                "suffix": "\\/128775072-QHSLOX3YWW4WBZV4.jpg"
+                            }
+                        },
+                        "visibility": "public"
+                    }
+                ]
+            }
+        ],
+        "summary": "0 photos"
+    },
+    "reasons": {
+        "count": 1,
+        "items": [
+            {
+                "summary": "Lots of people like this place",
+                "type": "general",
+                "reasonName": "rawLikesReason"
+            }
+        ]
+    },
+    "hereNow": {
+        "count": 0,
+        "summary": "Nobody here",
+        "groups": []
+    },
+    "createdAt": 1265795254,
+    "tips": {
+        "count": 22,
+        "groups": [
+            {
+                "type": "others",
+                "name": "All tips",
+                "count": 22,
+                "items": [
+                    {
+                        "id": "51de8fc0498ede3a035e5ed1",
+                        "createdAt": 1373540288,
+                        "text": "Beste Mac van het land. ;-)",
+                        "type": "user",
+                        "canonicalUrl": "https:\\/\\/foursquare.com\\/item\\/51de8fc0498ede3a035e5ed1",
+                        "lang": "nl",
+                        "likes": {
+                            "count": 3,
+                            "groups": [
+                                {
+                                    "type": "others",
+                                    "count": 3,
+                                    "items": [
+                                        {
+                                            "id": "142245093",
+                                            "firstName": "Tat Kee",
+                                            "lastName": "Kan",
+                                            "gender": "male",
+                                            "photo": {
+                                                "prefix": "https:\\/\\/fastly.4sqi.net\\/img\\/user\\/",
+                                                "suffix": "\\/142245093-5UMLII5L4DMA5ZVR.jpg"
+                                            }
+                                        },
+                                        {
+                                            "id": "71999589",
+                                            "firstName": "Jenny",
+                                            "lastName": "Alblas",
+                                            "gender": "female",
+                                            "photo": {
+                                                "prefix": "https:\\/\\/fastly.4sqi.net\\/img\\/user\\/",
+                                                "suffix": "\\/71999589-CURDAAM254XUBUFJ.jpg"
+                                            }
+                                        },
+                                        {
+                                            "id": "281274",
+                                            "firstName": "Giuseppe",
+                                            "lastName": "H.",
+                                            "gender": "male",
+                                            "photo": {
+                                                "prefix": "https:\\/\\/fastly.4sqi.net\\/img\\/user\\/",
+                                                "suffix": "\\/281274-FORWH0XWDE0YZSBN.jpg"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "summary": "3 likes"
+                        },
+                        "logView": true,
+                        "agreeCount": 3,
+                        "disagreeCount": 0,
+                        "todo": {
+                            "count": 0
+                        },
+                        "user": {
+                            "id": "197921",
+                            "firstName": "Menno",
+                            "lastName": "Hordijk",
+                            "gender": "male",
+                            "photo": {
+                                "prefix": "https:\\/\\/fastly.4sqi.net\\/img\\/user\\/",
+                                "suffix": "\\/JFAQV35YTM3SSE0E.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "id": "4f8afa64e4b0ddfd83a1a285",
+                        "createdAt": 1334508132,
+                        "text": "Dat dit de eerste McDrive is hebben we te danken aan het 32ndFS van de USAFE.",
+                        "type": "user",
+                        "canonicalUrl": "https:\\/\\/foursquare.com\\/item\\/4f8afa64e4b0ddfd83a1a285",
+                        "lang": "nl",
+                        "likes": {
+                            "count": 3,
+                            "groups": [
+                                {
+                                    "type": "others",
+                                    "count": 3,
+                                    "items": [
+                                        {
+                                            "id": "159260",
+                                            "firstName": "Jarno",
+                                            "lastName": "Peschier",
+                                            "gender": "male",
+                                            "photo": {
+                                                "prefix": "https:\\/\\/fastly.4sqi.net\\/img\\/user\\/",
+                                                "suffix": "\\/S1QUJ54V5E03VNDL.jpg"
+                                            }
+                                        },
+                                        {
+                                            "id": "142245093",
+                                            "firstName": "Tat Kee",
+                                            "lastName": "Kan",
+                                            "gender": "male",
+                                            "photo": {
+                                                "prefix": "https:\\/\\/fastly.4sqi.net\\/img\\/user\\/",
+                                                "suffix": "\\/142245093-5UMLII5L4DMA5ZVR.jpg"
+                                            }
+                                        },
+                                        {
+                                            "id": "22527638",
+                                            "firstName": "Robert",
+                                            "lastName": "van de Pol",
+                                            "gender": "male",
+                                            "photo": {
+                                                "prefix": "https:\\/\\/fastly.4sqi.net\\/img\\/user\\/",
+                                                "suffix": "\\/22527638-F5XF3GQIPXORRMWM.jpg"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "summary": "3 likes"
+                        },
+                        "logView": true,
+                        "agreeCount": 3,
+                        "disagreeCount": 0,
+                        "todo": {
+                            "count": 0
+                        },
+                        "user": {
+                            "id": "22527638",
+                            "firstName": "Robert",
+                            "lastName": "van de Pol",
+                            "gender": "male",
+                            "photo": {
+                                "prefix": "https:\\/\\/fastly.4sqi.net\\/img\\/user\\/",
+                                "suffix": "\\/22527638-F5XF3GQIPXORRMWM.jpg"
+                            }
+                        },
+                        "authorInteractionType": "liked"
+                    }
+                ]
+            }
+        ]
+    },
+    "shortUrl": "http:\\/\\/4sq.com\\/dA4gly",
+    "timeZone": "Europe\\/Amsterdam",
+    "listed": {
+        "count": 8,
+        "groups": [
+            {
+                "type": "others",
+                "name": "Lists from other people",
+                "count": 8,
+                "items": [
+                    {
+                        "id": "4e75b89d315188bfdc7c3cfe",
+                        "name": "All-time favorites in Netherlands",
+                        "description": "",
+                        "type": "others",
+                        "user": {
+                            "id": "9678826",
+                            "firstName": "Mignon",
+                            "lastName": "Klijn",
+                            "gender": "female",
+                            "photo": {
+                                "prefix": "https:\\/\\/fastly.4sqi.net\\/img\\/user\\/",
+                                "suffix": "\\/DAMISWKAAXMBBLAP.png"
+                            }
+                        },
+                        "editable": false,
+                        "public": true,
+                        "collaborative": false,
+                        "url": "\\/mignonx\\/list\\/alltime-favorites-in-netherlands",
+                        "canonicalUrl": "https:\\/\\/foursquare.com\\/mignonx\\/list\\/alltime-favorites-in-netherlands",
+                        "createdAt": 1316337821,
+                        "updatedAt": 1316337839,
+                        "followers": {
+                            "count": 3
+                        },
+                        "listItems": {
+                            "count": 11,
+                            "items": [
+                                {
+                                    "id": "v4b7280b6f964a520957c2de3",
+                                    "createdAt": 1316337821
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "4fa7b979e4b01208fc4aad98",
+                        "name": "McDonald's",
+                        "description": "",
+                        "type": "others",
+                        "user": {
+                            "id": "20485589",
+                            "firstName": "Aad",
+                            "lastName": "Vlasblom",
+                            "gender": "male",
+                            "photo": {
+                                "prefix": "https:\\/\\/fastly.4sqi.net\\/img\\/user\\/",
+                                "suffix": "\\/20485589-YS0KTUQ3H4DVTG05.jpg"
+                            }
+                        },
+                        "editable": false,
+                        "public": true,
+                        "collaborative": true,
+                        "url": "\\/aadvlasblom\\/list\\/mcdonalds",
+                        "canonicalUrl": "https:\\/\\/foursquare.com\\/aadvlasblom\\/list\\/mcdonalds",
+                        "createdAt": 1336392057,
+                        "updatedAt": 1388226927,
+                        "followers": {
+                            "count": 8
+                        },
+                        "listItems": {
+                            "count": 155,
+                            "items": [
+                                {
+                                    "id": "v4b7280b6f964a520957c2de3",
+                                    "createdAt": 1336422134
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "4eb18251e5e8c0f5bd395644",
+                        "name": "All-time favorites in Netherlands",
+                        "description": "",
+                        "type": "others",
+                        "user": {
+                            "id": "312888",
+                            "firstName": "Christine",
+                            "lastName": "van Renssen",
+                            "gender": "female",
+                            "photo": {
+                                "prefix": "https:\\/\\/fastly.4sqi.net\\/img\\/user\\/",
+                                "suffix": "\\/312888-D5HTIXAPPJNXXOKS.jpg"
+                            }
+                        },
+                        "editable": false,
+                        "public": true,
+                        "collaborative": false,
+                        "url": "\\/christinezegt\\/list\\/alltime-favorites-in-netherlands",
+                        "canonicalUrl": "https:\\/\\/foursquare.com\\/christinezegt\\/list\\/alltime-favorites-in-netherlands",
+                        "createdAt": 1320256081,
+                        "updatedAt": 1320428468,
+                        "followers": {
+                            "count": 0
+                        },
+                        "listItems": {
+                            "count": 19,
+                            "items": [
+                                {
+                                    "id": "v4b7280b6f964a520957c2de3",
+                                    "createdAt": 1320256081
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "popular": {
+        "status": "Likely open",
+        "richStatus": {
+            "entities": [],
+            "text": "Likely open"
+        },
+        "isOpen": true,
+        "isLocalHoliday": false,
+        "timeframes": [
+            {
+                "days": "Today",
+                "includesToday": true,
+                "open": [
+                    {
+                        "renderedTime": "Noon\\u20139:00 PM"
+                    }
+                ],
+                "segments": []
+            },
+            {
+                "days": "Tue",
+                "open": [
+                    {
+                        "renderedTime": "Noon\\u20139:00 PM"
+                    }
+                ],
+                "segments": []
+            },
+            {
+                "days": "Wed",
+                "open": [
+                    {
+                        "renderedTime": "Noon\\u20132:00 PM"
+                    },
+                    {
+                        "renderedTime": "5:00 PM\\u201310:00 PM"
+                    }
+                ],
+                "segments": []
+            },
+            {
+                "days": "Thu",
+                "open": [
+                    {
+                        "renderedTime": "Noon\\u20139:00 PM"
+                    }
+                ],
+                "segments": []
+            },
+            {
+                "days": "Fri",
+                "open": [
+                    {
+                        "renderedTime": "Noon\\u201310:00 PM"
+                    }
+                ],
+                "segments": []
+            },
+            {
+                "days": "Sat",
+                "open": [
+                    {
+                        "renderedTime": "Noon\\u2013Midnight"
+                    }
+                ],
+                "segments": []
+            },
+            {
+                "days": "Sun",
+                "open": [
+                    {
+                        "renderedTime": "Noon\\u20139:00 PM"
+                    }
+                ],
+                "segments": []
+            }
+        ]
+    },
+    "pageUpdates": {
+        "count": 0,
+        "items": []
+    },
+    "inbox": {
+        "count": 0,
+        "items": []
+    },
+    "venueChains": [],
+    "attributes": {
+        "groups": [
+            {
+                "type": "price",
+                "name": "Price",
+                "summary": "\\u20ac\\u20ac",
+                "count": 1,
+                "items": [
+                    {
+                        "displayName": "Price",
+                        "displayValue": "\\u20ac\\u20ac",
+                        "priceTier": 2
+                    }
+                ]
+            },
+            {
+                "type": "payments",
+                "name": "Credit Cards",
+                "summary": "Credit Cards",
+                "count": 5,
+                "items": [
+                    {
+                        "displayName": "Credit Cards",
+                        "displayValue": "Yes"
+                    }
+                ]
+            },
+            {
+                "type": "outdoorSeating",
+                "name": "Outdoor Seating",
+                "summary": "Outdoor Seating",
+                "count": 1,
+                "items": [
+                    {
+                        "displayName": "Outdoor Seating",
+                        "displayValue": "Yes"
+                    }
+                ]
+            },
+            {
+                "type": "wifi",
+                "name": "Wi-Fi",
+                "summary": "Wi-Fi",
+                "count": 1,
+                "items": [
+                    {
+                        "displayName": "Wi-Fi",
+                        "displayValue": "Yes"
+                    }
+                ]
+            },
+            {
+                "type": "serves",
+                "name": "Menus",
+                "summary": "Dinner, Lunch & more",
+                "count": 8,
+                "items": [
+                    {
+                        "displayName": "Brunch",
+                        "displayValue": "Brunch"
+                    },
+                    {
+                        "displayName": "Lunch",
+                        "displayValue": "Lunch"
+                    },
+                    {
+                        "displayName": "Dinner",
+                        "displayValue": "Dinner"
+                    }
+                ]
+            },
+            {
+                "type": "diningOptions",
+                "name": "Dining Options",
+                "count": 5,
+                "items": [
+                    {
+                        "displayName": "Delivery",
+                        "displayValue": "No Delivery"
+                    }
+                ]
+            }
+        ]
+    },
+    "bestPhoto": {
+        "id": "57f68200498eee91a5980026",
+        "createdAt": 1475772928,
+        "source": {
+            "name": "Swarm for Windows Phone",
+            "url": "https:\\/\\/swarmapp.com"
+        },
+        "prefix": "https:\\/\\/fastly.4sqi.net\\/img\\/general\\/",
+        "suffix": "\\/128775072_g9-iWKn-SmksRRYDWbLvCSn851YE78cxqdGEnIWSTjM.jpg",
+        "width": 3264,
+        "height": 1840,
+        "visibility": "public"
+    },
+    "colors": {
+        "highlightColor": {
+            "photoId": "57f68200498eee91a5980026",
+            "value": -14673896
+        },
+        "highlightTextColor": {
+            "photoId": "57f68200498eee91a5980026",
+            "value": -1
+        },
+        "algoVersion": 3
+    }
+    }

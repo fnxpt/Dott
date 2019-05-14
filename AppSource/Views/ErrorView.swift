@@ -4,10 +4,12 @@
 
 import UIKit
 
-class ErrorView: UIView {
+class ErrorView: UIView, OverlayView {
 	typealias ModelType = Error
+
 	@IBOutlet private var titleLabel: UILabel?
 	@IBOutlet private var messageLabel: UILabel?
+	var timer: Timer?
 
 	override func awakeFromNib() {
 		super.awakeFromNib()
@@ -18,8 +20,10 @@ class ErrorView: UIView {
 extension ErrorView: Updatable {
 
 	func update(with model: ModelType) {
-		titleLabel?.text = "Error"
-		messageLabel?.text = model.localizedDescription
+		DispatchQueue.main.async { [weak self] in
+			self?.titleLabel?.text = "generic_error".localize()
+			self?.messageLabel?.text = model.localizedDescription
+		}
 	}
 }
 
@@ -28,8 +32,11 @@ extension ErrorView: Themable {
 		titleLabel?.font = UIFont.preferredFont(forTextStyle: .headline)
 		messageLabel?.font = UIFont.preferredFont(forTextStyle: .subheadline)
 
-		backgroundColor = UIColor.red.withAlphaComponent(0.3)
+		backgroundColor = UIColor.red.withAlphaComponent(0.5)
 		layer.cornerRadius = 8
 		layer.masksToBounds = false
+
+		titleLabel?.textColor = .darkText
+		messageLabel?.textColor = .darkText
 	}
 }

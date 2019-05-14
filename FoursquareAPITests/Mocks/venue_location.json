@@ -1,0 +1,22 @@
+{
+    "address": "Amersfoortseweg 24",
+    "lat": 52.11393336836345,
+    "lng": 5.259886482585093,
+    "labeledLatLngs": [
+    {
+    "label": "display",
+    "lat": 52.11393336836345,
+    "lng": 5.259886482585093
+    }
+    ],
+    "postalCode": "3712 BD",
+    "cc": "NL",
+    "city": "Huis ter Heide",
+    "state": "Utrecht",
+    "country": "Netherlands",
+    "formattedAddress": [
+    "Amersfoortseweg 24",
+    "3712 BD Huis ter Heide",
+    "Netherlands"
+    ]
+}

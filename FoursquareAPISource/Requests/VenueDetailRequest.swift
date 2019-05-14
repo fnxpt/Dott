@@ -10,6 +10,6 @@ public struct VenueDetailRequest: FoursquareRequest {
 
 	public static func getVenueDetail(_ identifier: String, completionHandler: @escaping (Response<Type>) -> Void) {
 
-		request(path: String(format: service, identifier), parameters: nil, completionHandler: completionHandler)
+		request(path: String(format: service, identifier), keyPath: "response.venue", parameters: nil, completionHandler: completionHandler)
 	}
 }

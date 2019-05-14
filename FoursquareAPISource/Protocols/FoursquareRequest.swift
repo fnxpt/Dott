@@ -8,6 +8,7 @@ protocol FoursquareRequest: Requestable {}
 
 extension FoursquareRequest {
 	internal static func request<Type>(path service: String,
+	                                   keyPath: String? = nil,
 	                                   parameters: [String: Any]?,
 	                                   completionHandler: @escaping (Response<Type>) -> Void) where Type: Decodable {
 		var queryParams: [String: Any] = parameters ?? [:]
@@ -44,9 +45,8 @@ extension FoursquareRequest {
 				let response = response as? HTTPURLResponse {
 				do {
 					if response.statusCode == 200 {
-
-						let operation = try Operation<Type>.decode(data: data)
-						completionHandler(.success(object: operation.response.objects))
+						let object = try Type.decode(data: data, keyPath: keyPath)
+						completionHandler(.success(object: object))
 					} else {
 						completionHandler(.error(error: ServiceError.unexpected))
 					}

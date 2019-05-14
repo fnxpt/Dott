@@ -1,20 +1,24 @@
 PODS:
+  - Kingfisher (5.4.0)
   - SwiftFormat/CLI (0.40.8)
   - SwiftLint (0.32.0)
 
 DEPENDENCIES:
+  - Kingfisher (~> 5.4.0)
   - SwiftFormat/CLI (~> 0.40.8)
   - SwiftLint (~> 0.32.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Kingfisher
     - SwiftFormat
     - SwiftLint
 
 SPEC CHECKSUMS:
+  Kingfisher: 9c8f2cc6710334e06f32ba2b45e77707d5e2f0c9
   SwiftFormat: d9e5ca1aed735164fe9d26510ec508ddb8a93598
   SwiftLint: 009a898ef2a1c851f45e1b59349bf6ff2ddc990d
 
-PODFILE CHECKSUM: de4d159d601cb5ad6750c95f4bba59e19b9e66b0
+PODFILE CHECKSUM: 2c27bc0f3181998470ce57181e94e2e3b64ebdf6
 
 COCOAPODS: 1.5.3

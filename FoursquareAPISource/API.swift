@@ -11,6 +11,6 @@ struct API {
 
 	enum Venues: String {
 		case search = "venues/search"
-		case detail = "venues/%s"
+		case detail = "venues/%@"
 	}
 }

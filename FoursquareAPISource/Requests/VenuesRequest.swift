@@ -20,6 +20,6 @@ public struct VenuesRequest: FoursquareRequest {
 			"limit": "\(limit)"
 		]
 
-		request(path: service, parameters: parameters, completionHandler: completionHandler)
+		request(path: service, keyPath: "response.venues", parameters: parameters, completionHandler: completionHandler)
 	}
 }
